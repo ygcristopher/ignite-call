@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import { globalStyles } from './styles/global'
 
-const roboto = Roboto({ subsets: ['latin'] })
+const roboto = Roboto({weight: '700', subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
